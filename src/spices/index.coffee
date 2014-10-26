@@ -1,4 +1,4 @@
-Manager = require 'spices/Manager.coffee'
+Manager = require 'spices/Manager'
 
 module.exports = (args...) ->
   new Manager(args...)

@@ -13,7 +13,7 @@ Setup
 Installation
 ---
 
-    npm install spices --save-dev
+    npm install spices
 
 Configuration
 ---
