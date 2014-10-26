@@ -1,6 +1,6 @@
 {
   "name": "spices",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expose commands in your node.js application",
   "main": "index.js",
   "scripts": {
