@@ -58,10 +58,24 @@ Let the magic happens:
 
 ```bash
 node command.js # provides a list of the available commands
-node commands.js myapp:mycommand "some extra arguments" 1 2 3
+node commands.js myapp:mycommand "some extra arguments" -a 1 2 3
 ```
 
 Documentation
 ===
 
-You don't need to know much more than what is described in the setup and the fact that **spices** handles promises. So if your command returns a promise **spices** will wait for its fulfillment to return.
+You don't need to know much more than what is described above but two
+exceptions.
+
+Promises
+---
+
+**spices** handles promises. So if your command returns a promise
+**spices** will wait for its fulfillment to return.
+
+Arguments
+---
+
+**spices** uses [minimist](https://github.com/substack/minimist) and what your
+command receives kept the format minimist provides. What interests you lives
+inside the '_' of the provided dictionary.
