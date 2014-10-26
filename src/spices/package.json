@@ -1,0 +1,10 @@
+{
+  "name": "spices",
+  "version": "0.1.0",
+  "author": "Fräntz Miccoli",
+  "dependencies": {
+      "minimist": "^0.2.0",
+      "underscore-node": "^0.1.2",
+      "q": "^1.0.1"
+  }
+}
