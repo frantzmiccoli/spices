@@ -45,10 +45,10 @@ command.js: now you have to provide a file to actually call to run your commands
 ``` js
 appCommands = require('myapp/commands')
 
-commandManager = require('spices)();
+commandManager = require('spices')();
 
 // we could also have directly call
-// commandManager = require('spices)(appCommands); 
+// commandManager = require('spices')(appCommands);
 commandManager.addCommands(appCommands);
 
 commandManager.run();
