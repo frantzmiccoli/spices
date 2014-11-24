@@ -1,7 +1,7 @@
 {
   "name": "spices",
-  "version": "1.0.2",
-  "description": "Expose commands in your node.js application",
+  "version": "1.0.3",
+  "description": "spices lets you expose commands in your node.js application",
   "main": "index.js",
   "scripts": {
     "test": "(export NODE_PATH=$NODE_PATH\\:`pwd`/src ; node_modules/.bin/grunt mochaTest)"
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "command",
-    "command",
+    "minimist",
+    "spices",
     "line"
   ],
   "author": "Fräntz Miccoli <frantz.miccoli+npm@gmail.com>",
